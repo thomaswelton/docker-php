@@ -14,4 +14,4 @@ RUN ln -s /etc/apache2/mods-available/rewrite.load /etc/apache2/mods-enabled/rew
 
 
 # Expose ports
-EXPOSE 22 80
+EXPOSE 80
