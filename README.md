@@ -5,6 +5,3 @@ Installed modules
 - mysql
 - apc
 - composer
-
-Apache Modules
-- mod_rewrite
