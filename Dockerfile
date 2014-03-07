@@ -1,4 +1,4 @@
-FROM thomaswelton.com:5000/apache
+FROM thomaswelton/apache
 
 MAINTAINER thomaswelton
 
