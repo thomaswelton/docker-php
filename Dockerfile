@@ -22,4 +22,7 @@ RUN DEBIAN_FRONTEND=noninteractive apt-get -y install php-apc
 RUN curl -sS https://getcomposer.org/installer | php
 RUN mv composer.phar /usr/local/bin/composer
 
+# Install php curl
+RUN DEBIAN_FRONTEND=noninteractive apt-get -y install curl libcurl3 libcurl3-dev php5-curl
+
 RUN DEBIAN_FRONTEND=noninteractive apt-get -y autoremove
